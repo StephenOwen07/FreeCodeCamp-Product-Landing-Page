@@ -29,6 +29,21 @@ img {
   max-width: 100%;
   height: auto; }
 
+.Button {
+  padding: 12px 32px;
+  border-radius: 50px;
+  background: #44D62C;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: Roboto, Arial, sans-serif;
+  text-decoration: none;
+  -webkit-transition: ease-in-out 0.2s;
+  -o-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s; }
+  .Button:hover {
+    background-color: #fff;
+    color: #44D62C; }
+
 .Container {
   max-width: 100%;
   margin-left: auto;
@@ -106,4 +121,88 @@ img {
       background-color: #fff !important; } }
 
 .Section {
-  padding: 64px 0; }
+  padding: 32px 0; }
+  @media only screen and (min-width: 768px) {
+    .Section {
+      padding: 64px 0; } }
+
+.Hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  @media only screen and (min-width: 992px) {
+    .Hero {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+  .Hero__text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 48px;
+    text-align: center; }
+    @media only screen and (min-width: 992px) {
+      .Hero__text-wrapper {
+        position: relative;
+        top: -50px;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+        flex: 1 0 50%;
+        margin-bottom: 0;
+        text-align: left; } }
+  .Hero__title {
+    margin-bottom: 12px;
+    color: #fff;
+    font-family: Audiowide ,Arial, sans-serif;
+    font-size: 6rem;
+    line-height: 1; }
+    @media only screen and (min-width: 992px) {
+      .Hero__title {
+        margin-bottom: 24px;
+        font-size: 8rem; } }
+    @media only screen and (min-width: 1200px) {
+      .Hero__title {
+        font-size: 9rem; } }
+  .Hero__subtitle {
+    margin-bottom: 32px;
+    color: #44D62C;
+    font-size: 3rem;
+    font-family: Audiowide ,Arial, sans-serif; }
+    @media only screen and (min-width: 992px) {
+      .Hero__subtitle {
+        font-size: 3.6rem; } }
+    @media only screen and (min-width: 1200px) {
+      .Hero__subtitle {
+        margin-bottom: 68px; } }
+  @media only screen and (min-width: 992px) {
+    .Hero__image-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+      flex: 1 0 50%; } }
