@@ -1,0 +1,24 @@
+.Container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+
+  @include respond (sm) {
+    max-width: 540px;
+  }
+
+  @include respond (md) {
+    max-width: 720px;
+  }
+  @include respond (lg) {
+    max-width: 960px;
+  }
+  @include respond (xl) {
+    max-width: 1140px;
+  }
+  @include respond (xxl) {
+    max-width: 1320px;
+  }
+}
