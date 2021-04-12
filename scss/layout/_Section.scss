@@ -1,7 +1,9 @@
 .Section {
-  padding: 32px 0;
+  padding-bottom: 32px;
+  padding-top: 32px;
 
   @include respond (md) {
-  padding: 64px 0;
+  padding-bottom: 64px;
+  padding-top: 64px;
   }
 }

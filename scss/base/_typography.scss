@@ -1,0 +1,35 @@
+.Heading {
+  color: $color-green;
+  font-family: Audiowide, Arial, sans-serif;
+
+  &--two {
+    margin-bottom: 32px;
+    font-size: 3rem;
+
+    @include respond (lg) {
+      font-size: 3.6rem;
+    }
+  }
+
+  &--three {
+    margin-bottom: 16px;
+    font-size: 2.4rem;
+
+    @include respond (lg) {
+      font-size: 2.4rem;
+    }
+  }
+}
+
+.Paragraph {
+  margin-bottom: 48px;
+  color: $color-white;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+
+  @include respond (lg) {
+    font-size: 1.8rem;
+    margin-bottom: 64px;
+  }
+}

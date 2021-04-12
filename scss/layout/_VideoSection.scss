@@ -1,0 +1,15 @@
+.VideoSection {
+
+  &__video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 60%;
+    height: 0;
+  }
+
+  &__video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+}
