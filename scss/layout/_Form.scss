@@ -1,0 +1,34 @@
+.Form {
+display: flex;
+justify-content: center;
+  &__input {
+   
+    width: 150px;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 50px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+   
+    outline: 0;
+
+    @include respond (sm) {
+      width: 300px;
+    }
+    @include respond (md) {
+      width: 400px;
+    }
+  }
+
+  &__button {
+    
+    border: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    cursor: pointer;
+
+    @include respond (md) {
+
+    }
+  }
+}
