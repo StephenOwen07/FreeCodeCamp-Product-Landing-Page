@@ -1,22 +1,40 @@
 .Header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 24px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000; 
+  padding: 12px 0;
+  z-index: 1;
 
-  @include respond(md) {
-    flex-direction: row;
-
+  @include respond (md) {
+    height: 60px;
   }
 
+
   &__logo {
+    display: block;
     width: 40px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include respond (md) {
+      margin-left: 48px;
+      margin-bottom: 0;
+      float: left;
+    }
   }
 
   &__nav {
     text-align: center;    
+
+    @include respond (md) { 
+    float: right;  
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 48px;
+    }
   }
 
   &__nav-item {

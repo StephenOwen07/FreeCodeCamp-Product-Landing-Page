@@ -11,13 +11,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header id="header" class="Header Container">
+  <header id="header" class="Header ">
       <img src="images/Razerr-logo-300x300.png" alt="Razer Company Logo" id="header-img" class="Header__logo">
 
     <nav id="nav-bar" class="Header__nav">
-      <a href="#" class="Header__nav-item nav-link">Video</a>
-      <a href="#" class="Header__nav-item nav-link">Features</a>
-      <a href="#" class="Header__nav-item Header__nav-item--cta nav-link">Pre-order</a>
+      <a href="#video" class="Header__nav-item nav-link">Video</a>
+      <a href="#features" class="Header__nav-item nav-link">Features</a>
+      <a href="#form" class="Header__nav-item Header__nav-item--cta nav-link">Pre-order</a>
     </nav>
   </header>
 
@@ -44,7 +44,7 @@
   </div>
 </section>
 
-<section class="FeaturesSection Section Container">
+<section id="features" class="FeaturesSection Section Container">
   <div class="FeaturesSection__text-wrapper TextBlock">
     <h2 class="Heading Heading--two">Modern tech for the modern world</h2>
     <p class="FeaturesSections__text Paragraph">Fill in your email and we’ll notify you as soon as Project Hazel hits the market.</p>
@@ -102,10 +102,10 @@
     <p class="FeaturesSections__text Paragraph">Pre-order now! Fill in your email and we’ll notify you as soon as Project Hazel hits the market.</p>
   </div>
 
-  <div id="form" class="Form">
+  <form id="form" class="Form" action="https://www.freecodecamp.com/email-submit" method="post">
     <input id="email" class="Form__input" type="email" name="email" required placeholder="Email address">
-    <button type="submit" id="submit" class="Form__button Button">Submit</button>
-  </div>
+    <input type="submit" id="submit" class="Form__button Button">Submit</input>
+  </form>
 </section>
 
 <footer class="Footer Container">
@@ -129,7 +129,7 @@
 
 
   <span class="Footer__copywright">© 2021 All rights reserved. – Designed & Coded by <a href="https://github.com/StephenOwen07" class="Footer__copywright-link">Stephen Owen</a></span>
-  
+   
 </footer>
 </body>
 </html>
