@@ -1,8 +1,8 @@
 # FreeCodeCamp - Build a Product Landing Page
 ## Objective:
-Build a CodePen.io app that is functionally similar to this: [FCC Tribute Page](https://codepen.io/freeCodeCamp/pen/RKRbwL).
+Build a CodePen.io app that is functionally similar to this: [FCC Product Landing Page](https://codepen.io/freeCodeCamp/pen/RKRbwL).
 
-* [See Tribute Page](https://stephenowen07.github.io/FreeCodeCamp-Product-Landing-Page)
+* [See Product Landing Page](https://stephenowen07.github.io/FreeCodeCamp-Product-Landing-Page)
 
 
 ## Rules:
